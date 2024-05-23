@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.show-products-button {
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.show-products-button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.show-products-button.open {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
